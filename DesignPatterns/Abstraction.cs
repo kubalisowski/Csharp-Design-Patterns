@@ -5,7 +5,7 @@ using System.Text;
 namespace DesignPatterns
 {
     // Base class
-    public abstract class Abstracted
+    public abstract class Abstraction
     {
         // Abstract method
         public abstract void VoidAbstract();
@@ -20,7 +20,7 @@ namespace DesignPatterns
 
     // Child (deriver) class
     // must deriver abstract methods
-    public class Child : Abstracted
+    public class Child : Abstraction
     {
         public override void VoidAbstract()
         {
